@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Perla Harghitei — Natural Mineral Water</title>
+<meta name="description" content="Perla Harghitei — premium natural mineral water from the volcanic springs of the Harghita Mountains.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body data-view="landing">
+
+<!-- Ambient background layer -->
+<div class="ambient-bg" aria-hidden="true">
+  <div class="ambient-blob blob-1"></div>
+  <div class="ambient-blob blob-2"></div>
+</div>
+
+<!-- ============ LANDING / CHOOSER ============ -->
+<main id="view-landing" class="view view-landing is-active">
+  <div class="landing-wrap">
+
+    <div class="landing-brand">
+      <div class="logo">
+        <span class="logo-mark" aria-hidden="true">
+          <svg viewBox="0 0 40 40" width="34" height="34" fill="none"><path d="M20 3C20 3 8 18.5 8 26.5C8 33.4 13.4 38 20 38C26.6 38 32 33.4 32 26.5C32 18.5 20 3 20 3Z" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/></svg>
+        </span>
+        <span class="logo-word">Perla<em>Harghitei</em></span>
+      </div>
+      <p class="landing-eyebrow">Natural mineral water · Harghita Mountains, Romania</p>
+    </div>
+
+    <h1 class="landing-question">Who are you?</h1>
+    <p class="landing-sub">Two journeys, one spring. Tell us why you're here, and we'll shape the experience around it.</p>
+
+    <div class="chooser">
+      <button class="chooser-card chooser-b2b" data-target="b2b" aria-label="Continue as a business customer">
+        <div class="chooser-card-inner">
+          <span class="chooser-tag">For organizations</span>
+          <h2>Business<br>Customer</h2>
+          <p>Hotels, restaurants, cafés, distributors and event organizers sourcing water at scale — reliably, every time.</p>
+          <span class="chooser-cta">Enter partner portal <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+        <svg class="chooser-wave" viewBox="0 0 400 60" preserveAspectRatio="none" aria-hidden="true">
+          <path d="M0,30 Q50,10 100,30 T200,30 T300,30 T400,30" stroke="currentColor" stroke-width="1" fill="none" opacity="0.4"/>
+          <path d="M0,40 Q50,22 100,40 T200,40 T300,40 T400,40" stroke="currentColor" stroke-width="1" fill="none" opacity="0.25"/>
+        </svg>
+      </button>
+
+      <div class="chooser-divider" aria-hidden="true">
+        <svg viewBox="0 0 60 400" preserveAspectRatio="none">
+          <path class="divider-path" d="M30,0 C45,50 15,100 30,150 C45,200 15,250 30,300 C40,330 25,370 30,400" stroke="url(#dgrad)" stroke-width="2" fill="none"/>
+          <defs>
+            <linearGradient id="dgrad" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#146C94"/>
+              <stop offset="1" stop-color="#FF8A65"/>
+            </linearGradient>
+          </defs>
+        </svg>
+        <span class="divider-drop"></span>
+      </div>
+
+      <button class="chooser-card chooser-b2c" data-target="b2c" aria-label="Continue as an individual customer">
+        <div class="chooser-card-inner">
+          <span class="chooser-tag">For you</span>
+          <h2>Individual<br>Customer</h2>
+          <p>Pure refreshment for everyday life — delivered to your door, whenever you need it.</p>
+          <span class="chooser-cta">Discover Perla <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+      </button>
+    </div>
+
+    <p class="landing-footnote">You can switch experiences anytime from the menu.</p>
+  </div>
+</main>
+
+<!-- ============ B2B EXPERIENCE ============ -->
+<div id="view-b2b" class="view view-b2b" data-theme="b2b">
+
+  <nav class="nav nav-b2b">
+    <button class="nav-back" data-action="go-landing" aria-label="Back to start">
+      <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M11 4l-5 5 5 5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+    <div class="nav-logo">
+      <span class="logo-mark small" aria-hidden="true"><svg viewBox="0 0 40 40" width="20" height="20" fill="none"><path d="M20 3C20 3 8 18.5 8 26.5C8 33.4 13.4 38 20 38C26.6 38 32 33.4 32 26.5C32 18.5 20 3 20 3Z" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/></svg></span>
+      <span>Perla Harghitei <em>Business</em></span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#b2b-why">Why Perla</a></li>
+      <li><a href="#b2b-products">Products</a></li>
+      <li><a href="#b2b-events">Events</a></li>
+      <li><a href="#b2b-logistics">Logistics</a></li>
+      <li><a href="#b2b-benefits">Partnership</a></li>
+    </ul>
+    <a href="#b2b-contact" class="btn btn-primary btn-small">Become a Partner</a>
+    <button class="nav-toggle" aria-label="Open menu" data-action="toggle-nav"><span></span><span></span><span></span></button>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero hero-b2b reveal">
+    <div class="hero-b2b-grid">
+      <div class="hero-b2b-copy">
+        <span class="eyebrow">Wholesale &amp; Partnership</span>
+        <h1>Premium hydration for your business.</h1>
+        <p class="hero-lede">Perla Harghitei supplies hotels, restaurants, cafés and distributors across Romania with naturally sourced mineral water — backed by dependable logistics and account management that scales with you.</p>
+        <div class="hero-actions">
+          <a href="#b2b-contact" class="btn btn-primary">Become a Partner</a>
+          <a href="#b2b-products" class="btn btn-ghost">View catalog</a>
+        </div>
+        <div class="hero-stats" id="hero-stats">
+          <div class="stat"><span class="stat-num" data-count="480">0</span><span class="stat-suffix">+</span><span class="stat-label">Active partners</span></div>
+          <div class="stat"><span class="stat-num" data-count="24">0</span><span class="stat-suffix">h</span><span class="stat-label">Avg. dispatch time</span></div>
+          <div class="stat"><span class="stat-num" data-count="99">0</span><span class="stat-suffix">.6%</span><span class="stat-label">On-time delivery</span></div>
+        </div>
+      </div>
+      <div class="hero-b2b-visual">
+        <img src="https://images.unsplash.com/photo-1544148103-0773bf10d330?auto=format&fit=crop&w=900&q=80" alt="Crates of glass water bottles staged for delivery in a warehouse" loading="lazy">
+        <div class="floating-card">
+          <span class="fc-label">Order status</span>
+          <span class="fc-value">Dispatched — Cluj DC</span>
+          <div class="fc-bar"><span></span></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- WHY PERLA -->
+  <section class="section" id="b2b-why">
+    <div class="section-head reveal">
+      <span class="eyebrow">Why Perla</span>
+      <h2>A supplier you don't have to think twice about.</h2>
+      <p class="section-lede">Consistency is the product behind the product. Here's what partners rely on.</p>
+    </div>
+    <div class="card-grid card-grid-5 reveal">
+      <article class="info-card">
+        <div class="info-icon">🚚</div>
+        <h3>Nationwide logistics</h3>
+        <p>Three regional distribution centers keep transit times short from Harghita to any county in the country.</p>
+      </article>
+      <article class="info-card">
+        <div class="info-icon">💧</div>
+        <h3>Consistent quality</h3>
+        <p>Every batch is tested against the same mineral profile, bottled at source with zero variance in taste.</p>
+      </article>
+      <article class="info-card">
+        <div class="info-icon">📦</div>
+        <h3>Flexible ordering</h3>
+        <p>Standing orders, one-off top-ups, or seasonal scaling for events — your ordering rhythm, our system.</p>
+      </article>
+      <article class="info-card">
+        <div class="info-icon">🤝</div>
+        <h3>Dedicated account manager</h3>
+        <p>One point of contact who knows your venue, your volumes, and your calendar — not a call center queue.</p>
+      </article>
+      <article class="info-card">
+        <div class="info-icon">📊</div>
+        <h3>Transparent reporting</h3>
+        <p>Monthly delivery and consumption summaries so procurement always has the numbers on hand.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section class="section section-tint" id="b2b-products">
+    <div class="section-head reveal">
+      <span class="eyebrow">Catalog</span>
+      <h2>Built for foodservice and retail volumes.</h2>
+      <p class="section-lede">Still and sparkling, in formats designed for the table, the bar, and the back of house.</p>
+    </div>
+
+    <div class="table-wrap reveal">
+      <table class="product-table">
+        <thead>
+          <tr><th>Product</th><th>Format</th><th>Case config</th><th>MOQ</th><th>Availability</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="prod-name">Perla Still</span><span class="prod-sub">Naturally still, low mineralization</span></td>
+            <td>0.33L glass</td><td>24 / case</td><td>40 cases</td><td><span class="badge badge-ok">In stock</span></td>
+          </tr>
+          <tr>
+            <td><span class="prod-name">Perla Sparkling</span><span class="prod-sub">Naturally carbonated at source</span></td>
+            <td>0.33L glass</td><td>24 / case</td><td>40 cases</td><td><span class="badge badge-ok">In stock</span></td>
+          </tr>
+          <tr>
+            <td><span class="prod-name">Perla Still</span><span class="prod-sub">Naturally still, low mineralization</span></td>
+            <td>0.75L glass</td><td>12 / case</td><td>30 cases</td><td><span class="badge badge-ok">In stock</span></td>
+          </tr>
+          <tr>
+            <td><span class="prod-name">Perla Sparkling</span><span class="prod-sub">Naturally carbonated at source</span></td>
+            <td>0.75L glass</td><td>12 / case</td><td>30 cases</td><td><span class="badge badge-ok">In stock</span></td>
+          </tr>
+          <tr>
+            <td><span class="prod-name">Perla Still</span><span class="prod-sub">Naturally still, low mineralization</span></td>
+            <td>1.5L PET</td><td>6 / pack</td><td>60 packs</td><td><span class="badge badge-ok">In stock</span></td>
+          </tr>
+          <tr>
+            <td><span class="prod-name">Perla Table Line</span><span class="prod-sub">Etched glass, restaurant service</span></td>
+            <td>0.75L glass</td><td>6 / case</td><td>15 cases</td><td><span class="badge badge-limited">Limited run</span></td>
+          </tr>
+          <tr>
+            <td><span class="prod-name">Perla Bulk Cooler</span><span class="prod-sub">For office &amp; venue coolers</span></td>
+            <td>18.9L bottle</td><td>1 / unit</td><td>10 units</td><td><span class="badge badge-ok">In stock</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="table-footnote reveal">MOQs apply to first orders; standing partners order below these thresholds under contract. Custom labeling available above 200 cases/month.</p>
+  </section>
+
+  <!-- EVENTS & HOSPITALITY -->
+  <section class="section" id="b2b-events">
+    <div class="section-head reveal">
+      <span class="eyebrow">Events &amp; Hospitality</span>
+      <h2>From the conference floor to the wedding table.</h2>
+      <p class="section-lede">Perla scales with the size and shape of your event without compromising the experience of the last guest.</p>
+    </div>
+    <div class="card-grid card-grid-3 reveal">
+      <article class="event-card">
+        <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=700&q=80" alt="Conference hall set for a corporate event" loading="lazy">
+        <h3>Conferences</h3>
+        <p>Branded or unbranded service for multi-day corporate events, with mid-event restock.</p>
+      </article>
+      <article class="event-card">
+        <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=700&q=80" alt="Elegant wedding reception table setting" loading="lazy">
+        <h3>Weddings</h3>
+        <p>Etched glass table service and precise headcount-based delivery, timed to the day.</p>
+      </article>
+      <article class="event-card">
+        <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=700&q=80" alt="Hotel lobby with modern interior design" loading="lazy">
+        <h3>Hotels</h3>
+        <p>In-room amenity supply and lobby/restaurant stock managed on a single rolling contract.</p>
+      </article>
+      <article class="event-card">
+        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=700&q=80" alt="Restaurant interior with set dining tables" loading="lazy">
+        <h3>Restaurants</h3>
+        <p>Still and sparkling by the case, synced to your ordering cycle and table turnover.</p>
+      </article>
+      <article class="event-card">
+        <img src="https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?auto=format&fit=crop&w=700&q=80" alt="Outdoor festival crowd at dusk" loading="lazy">
+        <h3>Festivals</h3>
+        <p>High-volume PET formats with on-site pallet delivery and rapid resupply windows.</p>
+      </article>
+      <article class="event-card">
+        <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=700&q=80" alt="Corporate team meeting in a modern office" loading="lazy">
+        <h3>Corporate offices</h3>
+        <p>Cooler bottle rotation and desk-side case delivery on a fixed monthly schedule.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- LOGISTICS -->
+  <section class="section section-tint" id="b2b-logistics">
+    <div class="section-head reveal">
+      <span class="eyebrow">Logistics</span>
+      <h2>One order, one system, no surprises.</h2>
+      <p class="section-lede">Here's exactly what happens between the moment you order and the moment you reorder.</p>
+    </div>
+    <div class="timeline reveal">
+      <div class="timeline-step">
+        <div class="timeline-icon">01</div>
+        <h3>Order</h3>
+        <p>Placed via account manager, portal, or standing contract schedule.</p>
+      </div>
+      <div class="timeline-step">
+        <div class="timeline-icon">02</div>
+        <h3>Warehouse</h3>
+        <p>Picked from the nearest of three regional distribution centers.</p>
+      </div>
+      <div class="timeline-step">
+        <div class="timeline-icon">03</div>
+        <h3>Transport</h3>
+        <p>Routed on temperature-controlled fleet with live dispatch tracking.</p>
+      </div>
+      <div class="timeline-step">
+        <div class="timeline-icon">04</div>
+        <h3>Delivery</h3>
+        <p>Confirmed on-site with digital proof of delivery and case count.</p>
+      </div>
+      <div class="timeline-step">
+        <div class="timeline-icon">05</div>
+        <h3>Repeat ordering</h3>
+        <p>Consumption patterns inform the next cycle — automatically, if you choose.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PARTNERSHIP BENEFITS -->
+  <section class="section" id="b2b-benefits">
+    <div class="section-head reveal">
+      <span class="eyebrow">Partnership Benefits</span>
+      <h2>The longer we work together, the better the terms.</h2>
+    </div>
+    <div class="card-grid card-grid-4 reveal">
+      <article class="benefit-card">
+        <span class="benefit-num">01</span>
+        <h3>Volume discounts</h3>
+        <p>Tiered pricing that improves automatically as your monthly volume grows.</p>
+      </article>
+      <article class="benefit-card">
+        <span class="benefit-num">02</span>
+        <h3>Marketing materials</h3>
+        <p>Branded glassware, table cards, and coolers supplied for qualifying venues.</p>
+      </article>
+      <article class="benefit-card">
+        <span class="benefit-num">03</span>
+        <h3>Priority support</h3>
+        <p>A direct line to logistics for rush orders and event-week contingencies.</p>
+      </article>
+      <article class="benefit-card">
+        <span class="benefit-num">04</span>
+        <h3>Recurring contracts</h3>
+        <p>Locked pricing and guaranteed allocation for 12/24-month agreements.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact-b2b" id="b2b-contact">
+    <div class="contact-b2b-inner reveal">
+      <h2>Let's build a partnership.</h2>
+      <p>Tell us about your business and volumes — an account manager will respond within one business day.</p>
+      <form class="form-b2b" data-form="b2b">
+        <div class="form-row">
+          <div class="field"><label for="b2b-company">Company name</label><input id="b2b-company" type="text" required placeholder="e.g. Hotel Central"></div>
+          <div class="field"><label for="b2b-type">Business type</label>
+            <select id="b2b-type">
+              <option>Hotel</option><option>Restaurant / Café</option><option>Distributor</option><option>Event organizer</option><option>Corporate office</option><option>Other</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="field"><label for="b2b-email">Work email</label><input id="b2b-email" type="email" required placeholder="you@company.com"></div>
+          <div class="field"><label for="b2b-volume">Estimated monthly volume</label><input id="b2b-volume" type="text" placeholder="e.g. 80 cases/month"></div>
+        </div>
+        <div class="field"><label for="b2b-notes">Anything else we should know?</label><textarea id="b2b-notes" rows="3" placeholder="Event dates, delivery locations, current supplier..."></textarea></div>
+        <button type="submit" class="btn btn-primary btn-wide">Request a partnership call</button>
+        <p class="form-success" data-success hidden>Thank you — your request has been received. An account manager will reach out within one business day.</p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer footer-b2b">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="logo-word small">Perla<em>Harghitei</em></span>
+        <p>Sourced at the volcanic springs of the Harghita Mountains, Romania.</p>
+      </div>
+      <div class="footer-cols">
+        <div><h4>Business</h4><ul><li><a href="#b2b-products">Catalog</a></li><li><a href="#b2b-logistics">Logistics</a></li><li><a href="#b2b-benefits">Partnership</a></li></ul></div>
+        <div><h4>Company</h4><ul><li><a href="#">About Perla</a></li><li><a href="#">Sustainability</a></li><li><a href="#">Careers</a></li></ul></div>
+        <div><h4>Contact</h4><ul><li>partners@perlaharghitei.ro</li><li>+40 266 100 200</li></ul></div>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 Perla Harghitei. All rights reserved. <button data-action="go-landing" class="link-btn">Switch experience</button></div>
+  </footer>
+</div>
+
+<!-- ============ B2C EXPERIENCE ============ -->
+<div id="view-b2c" class="view view-b2c" data-theme="b2c">
+
+  <nav class="nav nav-b2c">
+    <button class="nav-back" data-action="go-landing" aria-label="Back to start">
+      <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M11 4l-5 5 5 5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+    <div class="nav-logo">
+      <span class="logo-mark small" aria-hidden="true"><svg viewBox="0 0 40 40" width="20" height="20" fill="none"><path d="M20 3C20 3 8 18.5 8 26.5C8 33.4 13.4 38 20 38C26.6 38 32 33.4 32 26.5C32 18.5 20 3 20 3Z" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/></svg></span>
+      <span>Perla<em>Harghitei</em></span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#c-products">Shop</a></li>
+      <li><a href="#c-subscribe">Subscribe</a></li>
+      <li><a href="#c-love">Our water</a></li>
+    </ul>
+    <a href="#c-products" class="btn btn-coral btn-small">Order Now</a>
+    <button class="nav-toggle" aria-label="Open menu" data-action="toggle-nav"><span></span><span></span><span></span></button>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero hero-b2c reveal">
+    <img class="hero-b2c-img" src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?auto=format&fit=crop&w=1600&q=80" alt="Glass of pure water being poured with light reflecting through it" loading="lazy">
+    <div class="hero-b2c-overlay"></div>
+    <div class="hero-b2c-copy">
+      <span class="eyebrow eyebrow-light">From the heart of Harghita</span>
+      <h1>Pure refreshment<br>from the heart of nature.</h1>
+      <a href="#c-products" class="btn btn-coral btn-lg">Order Now</a>
+    </div>
+    <div class="scroll-cue" aria-hidden="true"><span></span></div>
+  </header>
+
+  <!-- FEATURED PRODUCTS -->
+  <section class="section section-c" id="c-products">
+    <div class="section-head center reveal">
+      <h2>Choose your Perla</h2>
+    </div>
+    <div class="product-grid reveal">
+      <article class="product-card">
+        <img src="https://images.unsplash.com/photo-1523362628745-0c100150b504?auto=format&fit=crop&w=700&q=80" alt="Still mineral water bottle" loading="lazy">
+        <h3>Perla Still</h3>
+        <p class="price">12.90 lei <span>/ 0.5L</span></p>
+        <button class="btn btn-outline-coral">Add to cart</button>
+      </article>
+      <article class="product-card">
+        <img src="https://images.unsplash.com/photo-1546171753-97d7676e4602?auto=format&fit=crop&w=700&q=80" alt="Sparkling mineral water bottle with bubbles" loading="lazy">
+        <h3>Perla Sparkling</h3>
+        <p class="price">13.90 lei <span>/ 0.5L</span></p>
+        <button class="btn btn-outline-coral">Add to cart</button>
+      </article>
+      <article class="product-card">
+        <img src="https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=700&q=80" alt="Multipack of water bottles for home delivery" loading="lazy">
+        <h3>Home Pack (12x1.5L)</h3>
+        <p class="price">64.90 lei <span>/ pack</span></p>
+        <button class="btn btn-outline-coral">Add to cart</button>
+      </article>
+    </div>
+  </section>
+
+  <!-- WHY YOU'LL LOVE IT -->
+  <section class="section section-c section-tint-c" id="c-love">
+    <div class="section-head center reveal">
+      <h2>Why you'll love it</h2>
+    </div>
+    <div class="love-grid reveal">
+      <div class="love-item"><span class="love-icon">🌿</span><h3>Natural</h3><p>Untouched from source to bottle.</p></div>
+      <div class="love-item"><span class="love-icon">💦</span><h3>Refreshing</h3><p>Crisp, light, never heavy.</p></div>
+      <div class="love-item"><span class="love-icon">🌱</span><h3>Healthy</h3><p>Balanced minerals, naturally.</p></div>
+      <div class="love-item"><span class="love-icon">✨</span><h3>Pure</h3><p>Nothing added, nothing to hide.</p></div>
+    </div>
+  </section>
+
+  <!-- QUICK ORDERING -->
+  <section class="section section-c">
+    <div class="section-head center reveal">
+      <h2>Ordering made simple</h2>
+    </div>
+    <div class="steps-c reveal">
+      <div class="step-c"><div class="step-num">1</div><h3>Choose</h3><p>Pick still, sparkling, or both.</p></div>
+      <div class="step-c-arrow">→</div>
+      <div class="step-c"><div class="step-num">2</div><h3>Checkout</h3><p>One tap, saved address, done.</p></div>
+      <div class="step-c-arrow">→</div>
+      <div class="step-c"><div class="step-num">3</div><h3>Enjoy</h3><p>At your door, usually next day.</p></div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section section-c section-tint-c">
+    <div class="section-head center reveal">
+      <h2>What people say</h2>
+    </div>
+    <div class="testimonial-grid reveal">
+      <blockquote class="testimonial">
+        <p>"It's the water I keep coming back to. Light, clean, tastes like it should."</p>
+        <cite>— Ana, Cluj-Napoca</cite>
+      </blockquote>
+      <blockquote class="testimonial">
+        <p>"The subscription means I never think about it. It's just there."</p>
+        <cite>— Radu, Bucharest</cite>
+      </blockquote>
+      <blockquote class="testimonial">
+        <p>"My whole family switched. The sparkling is a house favorite now."</p>
+        <cite>— Ioana, Brașov</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- SUBSCRIPTION -->
+  <section class="section section-c subscribe-section" id="c-subscribe">
+    <div class="subscribe-card reveal">
+      <div class="subscribe-copy">
+        <span class="eyebrow">Home delivery</span>
+        <h2>Never run out again.</h2>
+        <p>Subscribe and get Perla delivered on your schedule — pause, skip, or change anytime.</p>
+        <div class="subscribe-toggle" role="group" aria-label="Delivery frequency">
+          <button class="freq-btn is-active" data-freq="2">Every 2 weeks</button>
+          <button class="freq-btn" data-freq="4">Every 4 weeks</button>
+        </div>
+        <button class="btn btn-coral btn-lg">Start subscription</button>
+      </div>
+      <img src="https://images.unsplash.com/photo-1548839140-29a749e1cf4d?auto=format&fit=crop&w=800&q=80" alt="Water bottles delivered to a home doorstep" loading="lazy">
+    </div>
+  </section>
+
+  <footer class="footer footer-b2c">
+    <div class="footer-inner">
+      <span class="logo-word small">Perla<em>Harghitei</em></span>
+      <ul class="footer-social">
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">TikTok</a></li>
+      </ul>
+      <p>hello@perlaharghitei.ro · +40 266 100 200</p>
+      <button data-action="go-landing" class="link-btn">Switch experience</button>
+    </div>
+  </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
